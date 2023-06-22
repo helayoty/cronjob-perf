@@ -1,7 +1,7 @@
 # cronjob-perf
 
-To run the bench mark:
+To run the benchmark:
 
 ```bash
-go test -bench=.
+go test -bench=. --timeout 30m
 ```
